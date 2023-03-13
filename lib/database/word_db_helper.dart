@@ -22,4 +22,6 @@ class WordDbHelper {
     final maps = await db.query('word');
     return maps.map((e) => Word.fromJson(e)).toList();
   }
+
+
 }

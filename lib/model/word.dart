@@ -13,4 +13,11 @@ class Word{
         'id':id,
         'noun':noun,
       };
+
+  Map<String, dynamic> toMap(){
+    return{
+      'id':id,
+      'noun':noun
+    };
+  }
 }
